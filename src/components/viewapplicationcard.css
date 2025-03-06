@@ -1,0 +1,66 @@
+.viewapplicationcard-card {
+  color: var(--dl-color-theme-neutral-light);
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #4b32c1;
+}
+ 
+.viewapplicationcard-image {
+  width: var(--dl-size-size-medium);
+  height: var(--dl-size-size-medium);
+  object-fit: cover;
+}
+ 
+.viewapplicationcard-text3 {
+  text-align: center;
+}
+ 
+.viewapplicationcard-actions {
+  gap: var(--dl-space-space-unit);
+  flex-wrap: wrap;
+}
+ 
+.viewapplicationcard-button {
+  flex: 1;
+}
+ 
+.viewapplicationcard-action1 {
+  text-align: center;
+}
+ 
+.viewapplicationcard-text4 {
+  display: inline-block;
+}
+ 
+.viewapplicationcard-text5 {
+  display: inline-block;
+}
+ 
+.viewapplicationcard-text6 {
+  display: inline-block;
+}
+ 
+.viewapplicationcard-text7 {
+  display: inline-block;
+}
+ 
+
+ 
+
+ 
+@media(max-width: 767px) {
+  .viewapplicationcard-card {
+    width: 100%;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .viewapplicationcard-button {
+    width: 100%;
+  }
+}
